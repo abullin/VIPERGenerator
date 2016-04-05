@@ -1,9 +1,9 @@
 //
 //  ##MODULENAME##ViewController.swift
-//  JSNow
+//  ##APPNAME##
 //
 //  Created by ##USERNAME## on ##DATE##.
-//  Copyright © 2015 Jochen Schweizer GmbH. All rights reserved.
+//  Copyright © 2016 Jochen Schweizer GmbH. All rights reserved.
 //
 
 import XCGLogger

@@ -16,6 +16,7 @@ var moduleName string
 var packageName string
 var templateDirectory string
 var outputDir string
+var appName string
 
 func main() {
   getConsoleInput()
@@ -70,10 +71,17 @@ func getConsoleInput() {
   fmt.Print("Enter module name (e.g. BasketList): ")
   moduleName, _ = reader.ReadString('\n')
   moduleName = strings.TrimRight(moduleName, "\n")
-  if (templateDirectory != "swift") {
-    fmt.Print("Enter Java PackageName (e.g. com.company.mylittleProject): ")
+
+  if (templateDirectory == "java") {
+    fmt.Print("Enter Java PackageName (e.g. com.company.project): ")
     packageName, _ = reader.ReadString('\n')
     packageName = strings.TrimRight(packageName, "\n")
+  }
+
+  if (templateDirectory == "swift") {
+    fmt.Print("Enter App name (JSNow, JSPartner): ")
+    appName, _ = reader.ReadString('\n')
+    appName = strings.TrimRight(appName, "\n")
   }
 
   fmt.Print("Enter absolute output path: ")

@@ -16,5 +16,6 @@ You can use own templates, just provide your code templates in a subdirectory of
 Placeholders:
 - `##MODULENAME##` will be replaced
 - `##PACKAGENAME##` for java code, the package name of your module
+- `##APPNAME##` for swift code, the name of the app
 - `##USERNAME##` will be replaced with your terminal username
 - `##DATE##` will be replaced by current date with format: dd.MM.YYYY
